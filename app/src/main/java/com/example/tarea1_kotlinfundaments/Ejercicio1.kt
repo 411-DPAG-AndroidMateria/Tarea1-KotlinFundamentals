@@ -19,5 +19,5 @@ fun main() {
 
     // TODO: Usa println con string templates para imprimir el mensaje
 
-    println("Me llamo $nombre, tengo $edad añosm mido ${edad} años, mido ${estatura}m y es ${edad}años, mido ${estatura}m y es ${esEstudiante} que soy estudiante)
+    println("Me llamo $nombre, tengo $edad añosm mido ${edad} años, mido ${estatura}m y es ${edad}años, mido ${estatura}m y es ${esEstudiante} que soy estudiante")
 }
