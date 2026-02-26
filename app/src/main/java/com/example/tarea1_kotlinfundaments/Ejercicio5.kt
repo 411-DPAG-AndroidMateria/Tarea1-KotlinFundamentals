@@ -13,7 +13,7 @@ fun main() {
     val numeros = listOf(12345, 9081, 100)
 
     for (n in numeros) {
-        var numero = n
+        var numero= n
         var suma = 0
 
         // TODO: Mientras numero > 0:
@@ -21,6 +21,9 @@ fun main() {
         // - reduce numero (numero / 10)
         while (numero > 0) {
             // Completa aqui
+            val digito = numero % 10
+            suma = suma + digito
+            numero = numero / 10
         }
 
         println("Suma de digitos de $n: $suma")
